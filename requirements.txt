@@ -1,0 +1,5 @@
+PyAutoGUI==0.9.53
+modules==1.0.0
+pynput==1.7.6
+Cython==0.29.28
+simple-pid

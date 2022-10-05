@@ -1,10 +1,32 @@
-# Apex_YOLOv5
-Apex AI偵測工具(非外掛)
+# APEX-yolov5-aim-assit
+1.下載上列資源
 
-* AI偵測遊戲畫面(鎖定人物位置)
-* 輔助控制滑鼠
-* 此權重偵測效果有限，請自行依個人需求訓練模型
-* 顯卡會影響遊戲幀率及偵測效果
----
+2.執行apex.py
 
-[影片demo](https://drive.google.com/file/d/1FpFkIotOpqvh6GaGtuOTnhy4ACnuRaFa/view?usp=sharing)
+模型不太準確(可以用自己訓練的模型)
+
+利用 AI 達成人物追蹤
+
+重點
+--------------------------------------
+先確保你的設備夠好,否則偵數低效果很爛!!!!
+
+<b><i>建議:希望各位不要在牌位中使用,我不承擔帳號被banned的風險</i></b>
+
+
+
+
+想法來源
+---------------------------------------
+
+影片: https://www.youtube.com/watch?v=_QKDEI8uhQQ&ab_channel=%E5%91%86%E5%91%86
+
+想法來源: https://www.bilibili.com/video/BV1x64y1e7p5/?spm_id_from=333.788.recommend_more_video.1
+
+近況
+-------------------------------------------
+<此方案暫時停更>
+
+<先不回答問題了>
+
+
