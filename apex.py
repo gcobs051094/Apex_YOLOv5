@@ -94,19 +94,19 @@ def on_click(x, y, button, pressed):
         if args.hold_lock:
             if pressed:
                 lock_mode = True
-                print('locking...')
+                print('鎖定...')
             else:
                 lock_mode = False
-                print('lock mode off')
+                print('鎖定模式off')
         else:
             if pressed:
                 lock_mode = not lock_mode
-                print('lock mode', 'on' if lock_mode else 'off')
+                print('鎖定模式', 'on' if lock_mode else 'off')
 
 listener = pynput.mouse.Listener(on_click=on_click)
 listener.start()
 
-print('enjoy yourself!')
+print('程式已開啟~')
 t0 = time.time()
 cnt = 0
 
