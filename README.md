@@ -25,6 +25,7 @@ python apex.py
 ```
 7. 點擊activate.bat
 8. 待cmd出現「程式已開啟」，按下lock-button中設定的按鍵即可使用
-
-![Uploading file..._wmonob86c]()
+---
+![GIF](https://github.com/gcobs051094/Apex_YOLOv5/blob/main/Desktop%202022.09.26%20-%2007.59.48.03_Trim%20(2).gif)
+---
 [影片demo](https://drive.google.com/file/d/1FpFkIotOpqvh6GaGtuOTnhy4ACnuRaFa/view?usp=sharing)
