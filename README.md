@@ -1,32 +1,30 @@
-# APEX-yolov5-aim-assit
-1.下載上列資源
+#Apex_YOLOv5
+---
+## Apex AI鎖定敵人輔助工具
 
-2.執行apex.py
-
-模型不太準確(可以用自己訓練的模型)
-
-利用 AI 達成人物追蹤
-
-重點
---------------------------------------
-先確保你的設備夠好,否則偵數低效果很爛!!!!
-
-<b><i>建議:希望各位不要在牌位中使用,我不承擔帳號被banned的風險</i></b>
-
-
-
-
-想法來源
----------------------------------------
-
-影片: https://www.youtube.com/watch?v=_QKDEI8uhQQ&ab_channel=%E5%91%86%E5%91%86
-
-想法來源: https://www.bilibili.com/video/BV1x64y1e7p5/?spm_id_from=333.788.recommend_more_video.1
-
-近況
--------------------------------------------
-<此方案暫時停更>
-
-<先不回答問題了>
+* YOLOv5 偵測遊戲畫面 + 滑鼠控制鎖敵
+* 輔助控制，依舊要求玩家觀念及滑鼠控制
+* 非高階顯卡效果不好(顯卡影響YOLOv5 frame數)
+* 可自行訓練權重(此best.pt為YOLOv5s模型權重)
+---
+### 使用
+1. 下載整包github code
+2. 安裝anaconda
+3. 創建環境
+4. 為虛擬環境安裝套件
+```
+pip install -r requirements.txt
+``` 
+5. 開啟apex.py設定參數
+6. 更改activate.bat中的環境啟動路徑及遊戲資料夾 
+```
+CALL C:\ProgramData\Anaconda3\Scripts\activate.bat C:\ProgramData\Anaconda3\envs\APEXTorch38
+cd G:\Side_Pro\APEX-yolov5-aim-assist-main
+G:
+python apex.py
+```
+7. 點擊activate.bat
+8. 待cmd出現「程式已開啟」，按下lock-button中設定的按鍵即可使用
 
 
+[影片demo](https://drive.google.com/file/d/1FpFkIotOpqvh6GaGtuOTnhy4ACnuRaFa/view?usp=sharing)
